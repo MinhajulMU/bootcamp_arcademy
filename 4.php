@@ -1,7 +1,7 @@
 <?php
 function hitungPohon($tinggiAwal,$tahun){
 
-    for ($i=0; $i < $tahun; $i++) { 
+    for ($i=1; $i <= $tahun; $i++) { 
         # code...
             //semi
         $tinggiAwal += 1;
